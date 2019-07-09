@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-order-service-consumer" />
+        <module name="boot-user-service-provider" />
+        <module name="gmall-interface" />
+        <module name="order-service-consumer" />
+        <module name="user-service-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-order-service-consumer" target="1.8" />
+      <module name="boot-user-service-provider" target="1.8" />
+      <module name="gmall-interface" target="1.5" />
+      <module name="order-service-consumer" target="1.6" />
+      <module name="user-service-provider" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
